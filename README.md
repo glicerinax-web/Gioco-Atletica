@@ -34,6 +34,7 @@ Gara secca · Meeting (2-5 discipline) · **Decathlon** (tutti in tutte e 10, co
 | [`plancia.svg`](plancia.svg) | La plancia stampabile (1800 × 1420, vettoriale: si stampa in qualunque formato) |
 | [`strumenti/genera_plancia.py`](strumenti/genera_plancia.py) | Script che rigenera la plancia (`python3 strumenti/genera_plancia.py`) |
 | [`stampabili/`](stampabili/) | **Stampa e gioca**: plancia in PDF (A2, A3 o 4 fogli A4), 84 carte + 8 carte Atleta con i dorsi, segnapunti, Record dello Stadio, schede giocatore, gettoni e pedine da piegare |
+| [`strumenti/illustrazioni.py`](strumenti/illustrazioni.py) | Le illustrazioni cartoon di tutte le carte, disegnate in SVG vettoriale (una scena per ogni carta e per ogni Atleta) |
 | [`strumenti/genera_stampabili.py`](strumenti/genera_stampabili.py) + [`strumenti/stampa_pdf.js`](strumenti/stampa_pdf.js) | Rigenerano i materiali stampabili leggendo `CARTE.md` e `REGOLAMENTO.md` (servono Python 3 e Node con Playwright) |
 
 ## Stampa e gioca
