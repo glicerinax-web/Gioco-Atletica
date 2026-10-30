@@ -64,6 +64,22 @@ La fortuna c'è, come nello sport vero, ma chi gestisce bene Fiato, dadi e carte
 | Medaglie (oro, argento, bronzo) | 10 per tipo | premiazioni |
 | Blocco segnapunti + matita | 1 | punteggi, misure e Record dello Stadio |
 
+### 2.1 Versione "stampa e gioca"
+
+Tutto il materiale si può stampare a casa dalla cartella [`stampabili/`](stampabili/):
+
+| File | Cosa contiene | Come stamparlo |
+|---|---|---|
+| `plancia-A2.pdf` / `plancia-A3.pdf` | la plancia su un unico foglio | in copisteria (A2 consigliato) o su stampante A3 |
+| `plancia-A4-4fogli.pdf` | la plancia divisa su 4 fogli A4 | stampa al 100 % ("dimensioni effettive"), ritaglia lungo le linee e unisci con nastro adesivo sul retro |
+| `carte.pdf` | le 84 carte e le 8 carte Atleta (63 × 88 mm, formato standard) | A4 al 100 %; i dorsi sono nelle ultime pagine (vedi sotto) |
+| `schede.pdf` | segnapunti, Record dello Stadio, schede giocatore con promemoria | A4 al 100 % |
+| `gettoni.pdf` | Borracce, Grinta, Reazione, banane, pozzanghere, cartellini, medaglie, gettoni Turbo e le 8 pedine da piegare | A4 al 100 %, meglio su cartoncino |
+
+**I dorsi delle carte.** Ogni mazzo comincia su una pagina nuova. Per avere i dorsi stampa, sul retro di ogni pagina, la pagina-dorso del suo mazzo (Scarpetta, Stadio, Meteo o Atleta); in alternativa incolla fronte e retro, oppure usa delle bustine protettive con un cartoncino colorato dietro. Se non ti interessano i dorsi, usa semplicemente il colore della fascia per distinguere i mazzi.
+
+Servono inoltre **4 dadi a sei facce** e una matita. Le pagine HTML da cui sono generati i PDF sono in `stampabili/html/` e si rigenerano con `python3 strumenti/genera_stampabili.py` seguito da `node strumenti/stampa_pdf.js`.
+
 ---
 
 ## 3. La plancia
@@ -114,6 +130,26 @@ In quasi tutto il gioco si tirano **3 dadi** e poi si **sceglie** quali tenere. 
 
 ### 4.4 Il round
 Si gioca a **round**: in ogni round ogni atleta fa un turno, nell'ordine delle corsie (corsia 1, poi 2, ecc.). Questo garantisce che tutti abbiano lo stesso numero di turni: è decisivo negli arrivi al fotofinish.
+
+### 4.5 Preparazione della partita
+1. Apri la plancia al centro del tavolo e metti accanto i 4 dadi e la riserva di Borracce (la "banca").
+2. Mescola separatamente i mazzi **Scarpetta**, **Stadio** e **Meteo** e mettili coperti vicino alla plancia.
+3. Ogni giocatore sceglie un colore, prende la pedina, una **scheda giocatore** e i 3 gettoni **Reazione**. Se usate i personaggi (sezione 10), ognuno sceglie o pesca una carta **Atleta**.
+4. Ogni giocatore pesca **2 carte Scarpetta**.
+5. Scegliete la modalità (sezione 9) e scrivete i nomi sul **segnapunti**. Nel decathlon ognuno prende **5 gettoni Grinta**.
+6. Lo **starter** è il giocatore più giovane: dà il via alle corse e legge le carte Meteo.
+
+### 4.6 Quanti dadi si tirano: riepilogo
+
+| Situazione | Dadi tirati | Dadi tenuti |
+|---|---|---|
+| Corsa — Passo / Corsa / Scatto | 3 | 1 / 2 / 3 |
+| Partenza dai blocchi | 1 | — |
+| Ostacolo (se ti fermi sopra) | 1 | — |
+| Lungo — rincorsa, poi accelerazione e volo | 3, poi 1 alla volta, poi 1 | 2, poi tutti |
+| Alto | 3 | 2 |
+| Peso | da 1 a 4, a scelta | tutti |
+| Giavellotto | 3 | 1 Angolo + 2 Forza |
 
 ---
 
@@ -178,6 +214,9 @@ Le combinazioni **sul tiro** guardano tutti e 3 i dadi tirati; quelle **sui dadi
 | 4-5-6 | tiro | **Vento in Poppa** | +1 Fiato |
 | 1-2-3 | tiro | **Inciampo** | −1 Fiato (se ne hai) e dici "Ops!" |
 
+- Le combinazioni **non si sommano**: un tris vale solo come *In Trance* (o *Crampo Comico*), non anche come *Falcata Perfetta*.
+- Le combinazioni **sul tiro** si applicano anche se poi non tieni quei dadi.
+
 > Esempio: dichiari Corsa e tiri 5-5-6. Tenendo 5+6 muovi di 11. Tenendo 5+5 muovi di 10 ma fai **Falcata Perfetta** e peschi una carta. A te la scelta!
 
 ### 5.5 Le caselle speciali
@@ -215,6 +254,11 @@ Un atleta squalificato o eliminato non smette di giocare: diventa **Tifoso** per
 
 Così nessuno, nemmeno a 8 anni, resta a guardare.
 
+### 5.10 Durata degli effetti
+- Gli effetti "al prossimo turno" o "al prossimo tiro" valgono **una sola volta** e **scadono a fine disciplina** se non sono stati usati.
+- I segnalini Banana e Pozzanghera si tolgono dalla plancia alla fine della gara.
+- Se due effetti si contraddicono (per esempio "devi tenere i dadi più bassi" e "scegli tu quali dadi tiene"), vale quello giocato **per ultimo**.
+
 ---
 
 ## 6. I concorsi
@@ -233,6 +277,8 @@ Nei concorsi ogni atleta ha **3 tentativi** (nell'alto valgono regole proprie). 
 3. **Stacco**: quando decidi di fermarti, la casella raggiunta è il valore di **Rincorsa** (da 2 a 12).
 4. **Volo**: tiri **1 dado** (puoi usare la Concentrazione per ritirarlo).
 5. **Misura** = **4 m + (Rincorsa + Volo) × 0,25 m**.
+
+La Concentrazione si può usare su **qualsiasi** dado del salto: sui due della rincorsa, su un dado di accelerazione che ti farebbe superare l'asse, o sul volo.
 
 | Rincorsa + Volo | 8 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -449,7 +495,7 @@ E la **variante Nonni & Nipoti** per le famiglie: in squadra, un nonno e un nipo
 
 ## 13. Scheda segnapunti
 
-Copia questa tabella sul blocco (una colonna per giocatore o squadra).
+La versione stampabile (con anche la tabella dei Record dello Stadio e la versione a squadre) è in [`stampabili/schede.pdf`](stampabili/schede.pdf). In alternativa copia questa tabella sul blocco (una colonna per giocatore o squadra).
 
 | Disciplina | Giocatore 1 | Giocatore 2 | Giocatore 3 | Giocatore 4 | Giocatore 5 | Giocatore 6 | Giocatore 7 | Giocatore 8 |
 |---|---|---|---|---|---|---|---|---|

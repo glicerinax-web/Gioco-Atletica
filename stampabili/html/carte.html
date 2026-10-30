@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><title>Atletica Strampalata - Carte</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif; color: #1f2a33; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.pagina { page-break-after: always; break-after: page; overflow: hidden; position: relative; }
+.pagina:last-child { page-break-after: auto; break-after: auto; }
+
+@page { size: A4 portrait; margin: 0; }
+.foglio { width: 210mm; height: 297mm; display: flex; align-items: center; justify-content: center; }
+.griglia { display: grid; grid-template-columns: repeat(3, 63mm); grid-auto-rows: 88mm; }
+.nota { position: absolute; bottom: 5mm; left: 0; right: 0; text-align: center; font-size: 7pt; color: #888; }
+.carta { width: 63mm; height: 88mm; outline: 0.2mm solid #9a9a9a; outline-offset: -0.1mm; padding: 2.2mm;
+         display: flex; flex-direction: column; background: #fffaf0; }
+.testa { background: var(--c); color: #fff; border-radius: 2.5mm 2.5mm 0 0; padding: 1.6mm 2mm 1.8mm; position: relative; }
+.testa .simbolo { position: absolute; right: 1.6mm; top: 1.6mm; opacity: .9; }
+.tipo { font-size: 6pt; letter-spacing: .4mm; font-weight: bold; opacity: .9; }
+.nome { font-size: 11pt; font-weight: bold; line-height: 1.1; margin-top: .6mm; padding-right: 9mm; min-height: 9mm;
+        display: flex; align-items: center; }
+.quando { font-size: 6pt; text-align: center; color: #fff; background: color-mix(in srgb, var(--c) 75%, #000);
+          padding: .5mm 0; }
+.corpo { flex: 1; border: .5mm solid var(--c); border-top: 0; border-radius: 0 0 2.5mm 2.5mm; padding: 2mm;
+         display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; background: #fff; }
+.corpo { position: relative; }
+.filigrana { position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); opacity: .09; }
+.effetto, .colore { position: relative; }
+.effetto { font-size: 8.4pt; line-height: 1.28; }
+.sez + .sez { margin-top: 1.6mm; }
+.etq { display: block; font-size: 6.5pt; font-weight: bold; color: var(--c); text-transform: uppercase; letter-spacing: .3mm; }
+.spec { font-size: 8pt; font-style: italic; color: var(--c); margin-bottom: 2mm; font-weight: bold; }
+.colore { font-size: 7.2pt; font-style: italic; line-height: 1.25; color: #555; border-top: .3mm dotted #bbb; padding-top: 1.4mm; margin-top: 1.6mm; }
+.piede { display: flex; justify-content: space-between; font-size: 5.5pt; color: #999; padding: .8mm .5mm 0; }
+.dorso { padding: 2.2mm; background: #fff; }
+.cornice { flex: 1; border-radius: 3mm; background: var(--c); color: #fff; display: flex; flex-direction: column;
+           align-items: center; justify-content: center; text-align: center;
+           background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.08) 0 3mm, transparent 3mm 6mm); }
+.d-titolo { font-size: 17pt; font-weight: bold; letter-spacing: .6mm; margin-top: 3mm; }
+.d-sotto { font-size: 7pt; margin-top: 1.5mm; opacity: .9; }
+.d-gioco { font-size: 8pt; font-weight: bold; margin-top: 8mm; letter-spacing: .4mm; border-top: .3mm solid rgba(255,255,255,.6); padding-top: 2mm; }
+
+</style></head>
+<body>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Scarpe a Molla</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +3 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1 al tiro.<br><b>Peso/Giavellotto</b>: +1 m / +8 m.</div></div><div class="colore">"BOING! BOING! Il regolamento non dice niente sulle molle. Abbiamo controllato."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F1</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Scarpe a Molla</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +3 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1 al tiro.<br><b>Peso/Giavellotto</b>: +1 m / +8 m.</div></div><div class="colore">"BOING! BOING! Il regolamento non dice niente sulle molle. Abbiamo controllato."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F1</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Scarpe a Molla</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +3 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1 al tiro.<br><b>Peso/Giavellotto</b>: +1 m / +8 m.</div></div><div class="colore">"BOING! BOING! Il regolamento non dice niente sulle molle. Abbiamo controllato."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F1</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Bibita alla Carota</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+2 Fiato (Corsa) oppure +1 Concentrazione (Concorso).</div></div><div class="colore">"Fa bene alla vista e alle gambe. Lo dice la nonna, quindi è scienza."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F2</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Bibita alla Carota</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+2 Fiato (Corsa) oppure +1 Concentrazione (Concorso).</div></div><div class="colore">"Fa bene alla vista e alle gambe. Lo dice la nonna, quindi è scienza."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F2</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Bibita alla Carota</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+2 Fiato (Corsa) oppure +1 Concentrazione (Concorso).</div></div><div class="colore">"Fa bene alla vista e alle gambe. Lo dice la nonna, quindi è scienza."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F2</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Panino della Nonna</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+3 Fiato oppure +2 Concentrazione. Nel tuo prossimo turno <b>non puoi Scattare</b>.</div></div><div class="colore">"Mortadella doppia. Energia infinita, ma per un po' si cammina."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F3</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Panino della Nonna</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+3 Fiato oppure +2 Concentrazione. Nel tuo prossimo turno <b>non puoi Scattare</b>.</div></div><div class="colore">"Mortadella doppia. Energia infinita, ma per un po' si cammina."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F3</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Vento a Favore</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +2 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1.<br><b>Peso</b>: +1 m.<br><b>Giavellotto</b>: +8 m.</div></div><div class="colore">"Qualcuno sugli spalti ha acceso un ventilatore gigante. Coincidenza?"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F4</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Vento a Favore</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +2 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1.<br><b>Peso</b>: +1 m.<br><b>Giavellotto</b>: +8 m.</div></div><div class="colore">"Qualcuno sugli spalti ha acceso un ventilatore gigante. Coincidenza?"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F4</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Vento a Favore</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +2 caselle.<br><b>Lungo</b>: +0,5 m.<br><b>Alto</b>: +1.<br><b>Peso</b>: +1 m.<br><b>Giavellotto</b>: +8 m.</div></div><div class="colore">"Qualcuno sugli spalti ha acceso un ventilatore gigante. Coincidenza?"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F4</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Tifo da Stadio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Dopo aver visto il tiro,<br><b>ritira tutti i dadi</b>: vale il nuovo tiro.</div></div><div class="colore">"Il pubblico fa la ola solo per te. Ti senti invincibile (più o meno)."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F5</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Tifo da Stadio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Dopo aver visto il tiro,<br><b>ritira tutti i dadi</b>: vale il nuovo tiro.</div></div><div class="colore">"Il pubblico fa la ola solo per te. Ti senti invincibile (più o meno)."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F5</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Calzino Portafortuna</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Gira <b>un dado</b> sulla faccia che preferisci.</div></div><div class="colore">"Non è mai stato lavato dal 1998. Funziona proprio per questo."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F6</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Calzino Portafortuna</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Gira <b>un dado</b> sulla faccia che preferisci.</div></div><div class="colore">"Non è mai stato lavato dal 1998. Funziona proprio per questo."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F6</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Allenamento Segreto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: in Corsa tieni tutti e 3 i dadi senza spendere Fiato.<br><b>Concorso</b>: tira 1 dado in più e poi scartane uno a scelta.</div></div><div class="colore">"Ti sei allenato di nascosto ogni notte. Il vicino di casa ha chiamato i carabinieri."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F7</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Allenamento Segreto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: in Corsa tieni tutti e 3 i dadi senza spendere Fiato.<br><b>Concorso</b>: tira 1 dado in più e poi scartane uno a scelta.</div></div><div class="colore">"Ti sei allenato di nascosto ogni notte. Il vicino di casa ha chiamato i carabinieri."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F7</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Tuffo sul Traguardo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: se in questo turno arrivi, aggiungi +3 caselle di troppo (fotofinish).<br><b>Concorso</b>: +1 Concentrazione.</div></div><div class="colore">"Ti lanci in avanti col naso. Il fotografo ringrazia."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F8</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Tuffo sul Traguardo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: se in questo turno arrivi, aggiungi +3 caselle di troppo (fotofinish).<br><b>Concorso</b>: +1 Concentrazione.</div></div><div class="colore">"Ti lanci in avanti col naso. Il fotografo ringrazia."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F8</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Scia del Campione</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +1 casella per ogni avversario davanti a te entro 4 caselle (max +4).<br><b>Concorso</b>: se sei ultimo in classifica, +1 Concentrazione e +0,5 m / +1 / +1 m / +8 m.</div></div><div class="colore">"Ti metti dietro al più forte e ti fai tirare. Furbo!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F9</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Scia del Campione</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: +1 casella per ogni avversario davanti a te entro 4 caselle (max +4).<br><b>Concorso</b>: se sei ultimo in classifica, +1 Concentrazione e +0,5 m / +1 / +1 m / +8 m.</div></div><div class="colore">"Ti metti dietro al più forte e ti fai tirare. Furbo!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F9</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Giudice Distratto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Annulla un tuo <b>nullo</b>, una tua <b>falsa partenza</b> o un tuo <b>errore</b> nel salto in alto (il tentativo diventa valido / superato al tiro minimo).</div></div><div class="colore">"Il giudice stava mangiando un gelato al pistacchio. Non ha visto niente."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F10</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Giudice Distratto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Annulla un tuo <b>nullo</b>, una tua <b>falsa partenza</b> o un tuo <b>errore</b> nel salto in alto (il tentativo diventa valido / superato al tiro minimo).</div></div><div class="colore">"Il giudice stava mangiando un gelato al pistacchio. Non ha visto niente."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F10</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Mantello da Supereroe</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Fino a fine disciplina <b>ignori</b> ostacoli, bucce di banana e pozzanghere.</div></div><div class="colore">"Non vola, ma fa una scena incredibile."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F11</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Musichetta Motivazionale</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Se sei<br><b>ultimo o penultimo</b>: <b>Corsa</b> +4 caselle; <b>Concorso</b> tira 1 dado in più e scartane uno.</div></div><div class="colore">"Parte la musica dei film di pugilato. Ti senti in un montaggio d'allenamento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F12</span></div>
+</div><div class="carta" style="--c:#2e8b57">
+  <div class="testa"><div class="tipo">FACILITAZIONE</div><div class="nome">Musichetta Motivazionale</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su di te</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2e8b57;fill:#2e8b57"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Se sei<br><b>ultimo o penultimo</b>: <b>Corsa</b> +4 caselle; <b>Concorso</b> tira 1 dado in più e scartane uno.</div></div><div class="colore">"Parte la musica dei film di pugilato. Ti senti in un montaggio d'allenamento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · F12</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Buccia di Banana</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: piazza il segnalino Banana nella corsia di un avversario, da 1 a 6 caselle davanti a lui. Chi la raggiunge o la supera si ferma sopra, scivola e il turno dopo va al Passo.<br><b>Concorso</b>: il prossimo tentativo dell'avversario: se tira almeno un 1, è <b>nullo</b>.</div></div><div class="colore">"Un classico intramontabile. Uaaaaah!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D1</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Buccia di Banana</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: piazza il segnalino Banana nella corsia di un avversario, da 1 a 6 caselle davanti a lui. Chi la raggiunge o la supera si ferma sopra, scivola e il turno dopo va al Passo.<br><b>Concorso</b>: il prossimo tentativo dell'avversario: se tira almeno un 1, è <b>nullo</b>.</div></div><div class="colore">"Un classico intramontabile. Uaaaaah!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D1</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Buccia di Banana</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: piazza il segnalino Banana nella corsia di un avversario, da 1 a 6 caselle davanti a lui. Chi la raggiunge o la supera si ferma sopra, scivola e il turno dopo va al Passo.<br><b>Concorso</b>: il prossimo tentativo dell'avversario: se tira almeno un 1, è <b>nullo</b>.</div></div><div class="colore">"Un classico intramontabile. Uaaaaah!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D1</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Gomma da Masticare</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: il prossimo movimento dell'avversario è −2 caselle.<br><b>Concorso</b>: −0,5 m / −1 al tiro / −1 m / −8 m al prossimo tentativo.</div></div><div class="colore">"Sciuff… sciuff… sciuff. È incollata sotto la scarpa chiodata."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D2</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Gomma da Masticare</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: il prossimo movimento dell'avversario è −2 caselle.<br><b>Concorso</b>: −0,5 m / −1 al tiro / −1 m / −8 m al prossimo tentativo.</div></div><div class="colore">"Sciuff… sciuff… sciuff. È incollata sotto la scarpa chiodata."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D2</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Lacci Annodati</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Al prossimo tiro l'avversario deve tenere i dadi <b>più bassi</b>.</div></div><div class="colore">"Qualcuno ha annodato i lacci della scarpa destra con quelli della sinistra."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D3</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Lacci Annodati</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Al prossimo tiro l'avversario deve tenere i dadi <b>più bassi</b>.</div></div><div class="colore">"Qualcuno ha annodato i lacci della scarpa destra con quelli della sinistra."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D3</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Ape Curiosa</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: nel prossimo turno l'avversario muove al <b>Passo</b> (ma non pesca la carta).<br><b>Concorso</b>: tira 1 dado in meno al prossimo tentativo.</div></div><div class="colore">"Bzzzz! L'atleta corre agitando le braccia come un mulino a vento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D4</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Ape Curiosa</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: nel prossimo turno l'avversario muove al <b>Passo</b> (ma non pesca la carta).<br><b>Concorso</b>: tira 1 dado in meno al prossimo tentativo.</div></div><div class="colore">"Bzzzz! L'atleta corre agitando le braccia come un mulino a vento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D4</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Megafono Sbagliato</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Al prossimo tiro dell'avversario <b>scegli tu</b> quali dadi tiene (o, nel giavellotto, quale va sull'Angolo).</div></div><div class="colore">"DESTRA! NO, SINISTRA! NO, SALTA! — Non era il tuo allenatore."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D5</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Megafono Sbagliato</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Al prossimo tiro dell'avversario <b>scegli tu</b> quali dadi tiene (o, nel giavellotto, quale va sull'Angolo).</div></div><div class="colore">"DESTRA! NO, SINISTRA! NO, SALTA! — Non era il tuo allenatore."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D5</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Piccione Ladro</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Ruba <b>una carta a caso</b> dalla mano di un avversario.</div></div><div class="colore">"Cruuu. Il piccione è scappato con la carta e con mezzo panino."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D6</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Piccione Ladro</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Ruba <b>una carta a caso</b> dalla mano di un avversario.</div></div><div class="colore">"Cruuu. Il piccione è scappato con la carta e con mezzo panino."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D6</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Pozzanghera Portatile</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: piazza un segnalino Pozzanghera nella corsia di un avversario, da 1 a 6 caselle davanti a lui. Chi si ferma sopra perde 2 Fiato.<br><b>Concorso</b>: −1 Concentrazione all'avversario.</div></div><div class="colore">"L'hai portata da casa in un secchiello. Nessuno sa come."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D7</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Pozzanghera Portatile</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: piazza un segnalino Pozzanghera nella corsia di un avversario, da 1 a 6 caselle davanti a lui. Chi si ferma sopra perde 2 Fiato.<br><b>Concorso</b>: −1 Concentrazione all'avversario.</div></div><div class="colore">"L'hai portata da casa in un secchiello. Nessuno sa come."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D7</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Selfie del Tifoso</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: al prossimo turno l'avversario muove la <b>metà</b> (per difetto).<br><b>Concorso</b>: −1 a un dado a tua scelta del prossimo tentativo.</div></div><div class="colore">"Scusa, solo una foto! Ancora una! Con il filtro coniglietto!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D8</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Selfie del Tifoso</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: al prossimo turno l'avversario muove la <b>metà</b> (per difetto).<br><b>Concorso</b>: −1 a un dado a tua scelta del prossimo tentativo.</div></div><div class="colore">"Scusa, solo una foto! Ancora una! Con il filtro coniglietto!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D8</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Scambio di Borracce</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Scambia il tuo Fiato (o Concentrazione) con quello di un avversario.</div></div><div class="colore">"Oops! Le borracce erano dello stesso colore. Che sfortuna. Per lui."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D9</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Cane Invasore</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Corsa</b>: il primo in classifica tira 1 dado: pari scappa (+2 caselle), dispari si ferma a coccolarlo (−3 caselle).<br><b>Concorso</b>: il primo in classifica ritira il suo prossimo dado migliore.</div></div><div class="colore">"Un bassotto entra in pista e insegue chi è in testa. Il pubblico tifa per il bassotto."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D10</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Trombetta da Stadio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Dopo il tiro di un avversario, deve <b>ritirare il dado più alto</b> (vale il nuovo risultato).</div></div><div class="colore">"PEEEEEEEEP! Proprio nell'orecchio. Proprio in quel momento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D11</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Trombetta da Stadio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">Dopo il tiro di un avversario, deve <b>ritirare il dado più alto</b> (vale il nuovo risultato).</div></div><div class="colore">"PEEEEEEEEP! Proprio nell'orecchio. Proprio in quel momento."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D11</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Fischietto Finto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Partenza</b>: un avversario a scelta deve ritirare il dado di Reazione.<br><b>Alto</b>: l'avversario deve superare l'asticella con un tiro minimo +1.<br><b>Altri casi</b>: −1 al prossimo movimento o misura.</div></div><div class="colore">"Fiiiii! Non era lo starter. Era un tifoso con il fischietto della bici."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D12</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Fischietto Finto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez"><b>Partenza</b>: un avversario a scelta deve ritirare il dado di Reazione.<br><b>Alto</b>: l'avversario deve superare l'asticella con un tiro minimo +1.<br><b>Altri casi</b>: −1 al prossimo movimento o misura.</div></div><div class="colore">"Fiiiii! Non era lo starter. Era un tifoso con il fischietto della bici."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D12</span></div>
+</div><div class="carta" style="--c:#c8553d">
+  <div class="testa"><div class="tipo">DISPETTO</div><div class="nome">Sasso nella Scarpa</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg></div>
+  <div class="quando">si gioca nel tuo turno, su un avversario</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#c8553d;fill:#c8553d"><path d="M4 15 C6 6 16 4 21 7 C17 8 12 10 9 16 C8 18 5 18 4 15 Z"/></svg><div class="effetto"><div class="sez">L'avversario perde 1 Fiato (o 1 Concentrazione) e il suo prossimo movimento è −1.</div></div><div class="colore">"Ahia, ahia, ahia. Piccolissimo. Fastidiosissimo."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · D13</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Occhio di Falco</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez"><b>Annulla</b> un Dispetto giocato contro di te (si scarta).</div></div><div class="colore">"Ti ho visto, sai? Con quella banana in mano."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X1</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Occhio di Falco</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez"><b>Annulla</b> un Dispetto giocato contro di te (si scarta).</div></div><div class="colore">"Ti ho visto, sai? Con quella banana in mano."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X1</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Occhio di Falco</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez"><b>Annulla</b> un Dispetto giocato contro di te (si scarta).</div></div><div class="colore">"Ti ho visto, sai? Con quella banana in mano."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X1</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Occhio di Falco</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez"><b>Annulla</b> un Dispetto giocato contro di te (si scarta).</div></div><div class="colore">"Ti ho visto, sai? Con quella banana in mano."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X1</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Specchio Riflettente</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Un Dispetto giocato contro di te <b>colpisce chi l'ha giocato</b> (o, se è un segnalino, va piazzato davanti a lui).</div></div><div class="colore">"Boing! Rimbalza e torna al mittente. Con gli interessi."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X2</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Specchio Riflettente</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Un Dispetto giocato contro di te <b>colpisce chi l'ha giocato</b> (o, se è un segnalino, va piazzato davanti a lui).</div></div><div class="colore">"Boing! Rimbalza e torna al mittente. Con gli interessi."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X2</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Specchio Riflettente</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Un Dispetto giocato contro di te <b>colpisce chi l'ha giocato</b> (o, se è un segnalino, va piazzato davanti a lui).</div></div><div class="colore">"Boing! Rimbalza e torna al mittente. Con gli interessi."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X2</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Guardia del Corpo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Annulla un Dispetto e, fino a fine disciplina, <b>nessun Dispetto</b> può più colpirti.</div></div><div class="colore">"Due metri, occhiali scuri, auricolare. Nessuno sa da dove sia saltato fuori."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X3</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Ombrello Gigante</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Annulla l'effetto negativo di una carta <b>Stadio</b> o <b>Meteo</b> su di te (per tutta la disciplina, se Meteo).</div></div><div class="colore">"Funziona contro pioggia, sole, vento e piccioni."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X4</span></div>
+</div><div class="carta" style="--c:#2f6fd1">
+  <div class="testa"><div class="tipo">DIFESA</div><div class="nome">Ombrello Gigante</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg></div>
+  <div class="quando">si gioca in qualsiasi momento</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2f6fd1;fill:#2f6fd1"><path d="M12 3 L20 6 C20 13 17 18 12 21 C7 18 4 13 4 6 Z"/></svg><div class="effetto"><div class="sez">Annulla l'effetto negativo di una carta <b>Stadio</b> o <b>Meteo</b> su di te (per tutta la disciplina, se Meteo).</div></div><div class="colore">"Funziona contro pioggia, sole, vento e piccioni."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Scarpetta · X4</span></div>
+</div></div><div class="nota">Mazzo Scarpetta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">La Ola</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+3 caselle.</div></div><div class="colore">"Tutto lo stadio si alza per te. Anche il signore che dormiva in curva."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S1</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">La Ola</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+3 caselle.</div></div><div class="colore">"Tutto lo stadio si alza per te. Anche il signore che dormiva in curva."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S1</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Il Fotografo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Fai la <b>posa più buffa</b> che puoi: se almeno un giocatore ride, peschi <b>2</b> carte Scarpetta, altrimenti 1.</div></div><div class="colore">"Click! Questa finisce dritta in prima pagina."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S2</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Il Fotografo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Fai la <b>posa più buffa</b> che puoi: se almeno un giocatore ride, peschi <b>2</b> carte Scarpetta, altrimenti 1.</div></div><div class="colore">"Click! Questa finisce dritta in prima pagina."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S2</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Ciao Mamma!</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">La telecamera ti inquadra: se saluti gridando <i>"Ciao mamma!"</i> recuperi <b>+2 Fiato</b> (+1 Concentrazione). Se ti vergogni, niente.</div></div><div class="colore">"In diretta nazionale. Anche la zia ti sta guardando."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S3</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Calzino Perso</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">−2 caselle.</div></div><div class="colore">"Era il calzino portafortuna. Ora è di un gabbiano."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S4</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Mascotte in Pista</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Puoi <b>scambiare la tua posizione</b> con un atleta entro 3 caselle (davanti o dietro), ognuno nella propria corsia.</div></div><div class="colore">"La mascotte (un'enorme lumaca di peluche) ti abbraccia e ti fa girare su te stesso."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S5</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Mascotte in Pista</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Puoi <b>scambiare la tua posizione</b> con un atleta entro 3 caselle (davanti o dietro), ognuno nella propria corsia.</div></div><div class="colore">"La mascotte (un'enorme lumaca di peluche) ti abbraccia e ti fa girare su te stesso."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S5</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Speaker Entusiasta</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">+1 casella. Fino a fine disciplina tutti ti devono chiamare con il <b>soprannome</b> che sceglie il giocatore alla tua sinistra.</div></div><div class="colore">"E arrivaaaaa… IL FENOMENO DI CASTELFRANCOOO! (Non sei di Castelfranco.)"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S6</span></div>
+</div></div><div class="nota">Mazzo Stadio · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Il Gelataio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Tutti gli <b>altri</b> atleti si girano a guardare il carretto: −1 casella a ognuno.</div></div><div class="colore">"Pistacchio, fragola e stracciatella. Tu sei l'unico concentrato."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S7</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Palloncino in Pista</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Torni indietro di 2 caselle, ma peschi 1 carta Scarpetta.</div></div><div class="colore">"Ci sei rimbalzato contro. Il bambino che l'ha perso ti ringrazia comunque."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S8</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Camomilla nella Borraccia</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Il prossimo turno muovi solo al <b>Passo</b>, ma recuperi <b>+3 Fiato</b>.</div></div><div class="colore">"Che pace… che relax… aspetta, ero in gara?"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S9</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Scarpa Volante</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Hai perso una scarpa! Fino a fine disciplina <b>non puoi Scattare</b>, ma il pubblico ti adora: <b>+1 casella</b> a ogni movimento.</div></div><div class="colore">"La scarpa è atterrata nella buca del lungo. Misura: 7,20. Record personale della scarpa."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S10</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Stretching Improvviso</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Alzati e fai <b>3 saltelli</b> sul posto: +1 Fiato e +1 casella.</div></div><div class="colore">"Il fisioterapista dice che fa bene. Il fisioterapista è tuo cugino."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S11</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Rimonta Epica</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">Se non sei primo, porta la pedina <b>una casella dietro</b> all'atleta che ti precede.</div></div><div class="colore">"Lo speaker urla. Tu corri. Lo speaker urla di più. Tu corri di più."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S12</span></div>
+</div><div class="carta" style="--c:#e08a00">
+  <div class="testa"><div class="tipo">STADIO</div><div class="nome">Moscerino nell&#x27;Occhio</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg></div>
+  <div class="quando">si pesca fermandosi su una ★</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#e08a00;fill:#e08a00"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="effetto"><div class="sez">−1 casella e perdi 1 Fiato.</div></div><div class="colore">"Era piccolissimo. Ma era un moscerino olimpionico."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Stadio · S13</span></div>
+</div></div><div class="nota">Mazzo Stadio · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Giornata Perfetta</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>Tutti pescano 1 carta Scarpetta.</div><div class="sez"><span class="etq">Nei concorsi</span>Tutti pescano 1 carta Scarpetta.</div></div><div class="colore">"Sole, 22 gradi, nessun piccione in vista. Sospetto."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M1</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Giornata Perfetta</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>Tutti pescano 1 carta Scarpetta.</div><div class="sez"><span class="etq">Nei concorsi</span>Tutti pescano 1 carta Scarpetta.</div></div><div class="colore">"Sole, 22 gradi, nessun piccione in vista. Sospetto."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M1</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Acquazzone</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>Lo Scatto costa 1 Fiato in più.</div><div class="sez"><span class="etq">Nei concorsi</span>Tutti iniziano con 1 Concentrazione in meno.</div></div><div class="colore">"Piove così forte che i pesci chiedono l'ombrello."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M2</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Vento alle Spalle</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>+1 casella a ogni movimento che <b>finisce su un rettilineo</b>.</div><div class="sez"><span class="etq">Nei concorsi</span>Lungo +0,25 m, giavellotto +4 m.</div></div><div class="colore">"Vento a +2,1 m/s. Record non omologabile, ma che bello!"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M3</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Caldo Tropicale</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>−1 Fiato iniziale per tutti, ma il Passo recupera <b>+2</b> Fiato.</div><div class="sez"><span class="etq">Nei concorsi</span>Ogni volta che usi la Concentrazione, devi dire <i>"Che caldo!"</i>. Nessun altro effetto.</div></div><div class="colore">"38 gradi. Gli spettatori si sono trasferiti nella riviera dei 3000 siepi."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M4</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Vento Contrario</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>−1 casella a ogni movimento (minimo 1).</div><div class="sez"><span class="etq">Nei concorsi</span>Lungo −0,25 m, giavellotto −4 m.</div></div><div class="colore">"Il vento soffia talmente forte che lo starter ha perso il cappello. E il fischietto."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M5</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Nebbia Fitta</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>I Dispetti possono colpire solo atleti entro 6 caselle da te. Non si possono giocare carte Difesa: i dispetti arrivano dalla nebbia!</div><div class="sez"><span class="etq">Nei concorsi</span>Le misure si annunciano <b>solo a fine round</b>.</div></div><div class="colore">"Non si vede il traguardo. Non si vede nemmeno lo stadio. Siamo sicuri che sia lo stadio?"</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M6</span></div>
+</div><div class="carta" style="--c:#2a9bb8">
+  <div class="testa"><div class="tipo">METEO</div><div class="nome">Stadio Pieno</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg></div>
+  <div class="quando">vale per tutta la disciplina</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#2a9bb8;fill:#2a9bb8"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="effetto"><div class="sez"><span class="etq">In corsa</span>A inizio di ogni round l'atleta in ultima posizione avanza di +1 casella.</div><div class="sez"><span class="etq">Nei concorsi</span>All'inizio di ogni round di tentativi l'ultimo in classifica riceve +1 Concentrazione.</div></div><div class="colore">"Tutto esaurito! Il pubblico tifa per chi è in difficoltà."</div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Meteo · M7</span></div>
+</div></div><div class="nota">Mazzo Meteo · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Saetta Rossi</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Velocista</div><div class="sez">In partenza, con <b>Fulmine</b> fa falsa partenza solo con <b>1</b>.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A1</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Nonna Pina</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Veterana ("ho corso nel '64, e senza scarpe")</div><div class="sez">Una volta per disciplina può <b>ritirare un dado</b> gratis.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A2</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Bruno Bisonte</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Lanciatore</div><div class="sez">Peso: il primo <b>1</b> di ogni lancio si ritira gratis. Giavellotto: <b>+4 m</b>.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A3</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Lola Libellula</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Saltatrice</div><div class="sez">Alto: <b>Fosbury Perfetto</b> vale <b>+2</b>. Lungo: il primo superamento dell'asse di <b>1</b> sola casella non è nullo (si ferma sull'asse).</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A4</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Prof. Ostacolo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Ostacolista</div><div class="sez">Quando si ferma su un ostacolo tira <b>2 dadi</b> e tiene il migliore.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A5</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Mara Mezzofondo</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Mezzofondista</div><div class="sez"><b>+2 Fiato</b> iniziale in 400, 400 hs e 800.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A6</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Tobia Tartaruga</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Imperturbabile</div><div class="sez"><b>Immune</b> a banane e pozzanghere. Al Passo muove sempre almeno <b>4</b> caselle.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A7</span></div>
+</div><div class="carta" style="--c:#6a3fb5">
+  <div class="testa"><div class="tipo">ATLETA</div><div class="nome">Zeno Furbetto</div><svg class="simbolo" viewBox="0 0 24 24" style="width:8mm;height:8mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+  <div class="quando">abilità sempre attiva</div>
+  <div class="corpo"><svg class="filigrana" viewBox="0 0 24 24" style="width:26mm;height:26mm;color:#6a3fb5;fill:#6a3fb5"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="effetto"><div class="spec">Stratega</div><div class="sez">Limite di mano <b>4</b> carte. A inizio disciplina pesca 2 carte e ne scarta 1.</div></div></div>
+  <div class="piede"><span>Atletica Strampalata</span><span>Atleta · A8</span></div>
+</div></div><div class="nota">Mazzo Atleta · stampa al 100 % · ritaglia lungo le linee grigie</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2f6f3a">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">SCARPETTA</div>
+  <div class="d-sotto">facilitazioni · dispetti · difese</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div></div><div class="nota">Dorso Scarpetta · stampalo sul retro delle pagine del mazzo Scarpetta</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#e08a00">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><path d="M12 3 L14.5 9 L21 9.5 L16 13.5 L17.5 20 L12 16.5 L6.5 20 L8 13.5 L3 9.5 L9.5 9 Z"/></svg><div class="d-titolo">STADIO</div>
+  <div class="d-sotto">imprevisti dello stadio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div></div><div class="nota">Dorso Stadio · stampalo sul retro delle pagine del mazzo Stadio</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#2a9bb8">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="9" cy="9" r="4"/><path d="M7 19 C3 19 3 14 7 14 C8 10 14 10 15 13 C19 12 21 16 18 19 Z"/></svg><div class="d-titolo">METEO</div>
+  <div class="d-sotto">condizioni di gara</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div></div><div class="nota">Dorso Meteo · stampalo sul retro delle pagine del mazzo Meteo</div></div>
+<div class="pagina foglio"><div class="griglia"><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div><div class="carta dorso" style="--c:#6a3fb5">
+  <div class="cornice"><svg class="simbolo" viewBox="0 0 24 24" style="width:20mm;height:20mm;color:#fff;fill:#fff"><circle cx="13" cy="4.5" r="2.5"/><path d="M12 8 L8 13 L4 13 M12 8 L15 13 L19 14 M12 8 L11 15 L14 21 M11 15 L7 21" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><div class="d-titolo">ATLETA</div>
+  <div class="d-sotto">personaggio</div><div class="d-gioco">ATLETICA<br>STRAMPALATA</div></div>
+</div></div><div class="nota">Dorso Atleta · stampalo sul retro delle pagine del mazzo Atleta</div></div>
+<script>
+
+// Riduce il corpo del testo delle carte troppo piene finché il contenuto entra nella carta.
+document.querySelectorAll('.corpo').forEach(function (corpo) {
+  var eff = corpo.querySelector('.effetto'), col = corpo.querySelector('.colore');
+  var fe = 8.4, fc = 7.2;
+  while (corpo.scrollHeight > corpo.clientHeight + 1 && fe > 6) {
+    fe -= 0.2; fc = Math.max(5.6, fc - 0.2);
+    eff.style.fontSize = fe + 'pt'; if (col) col.style.fontSize = fc + 'pt';
+  }
+  if (corpo.scrollHeight > corpo.clientHeight + 1) corpo.setAttribute('data-troppo-pieno', '1');
+});
+
+window.__pronto = true;
+</script>
+</body></html>

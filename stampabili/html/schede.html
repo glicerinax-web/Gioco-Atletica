@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><title>Atletica Strampalata - Schede</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif; color: #1f2a33; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.pagina { page-break-after: always; break-after: page; overflow: hidden; position: relative; }
+.pagina:last-child { page-break-after: auto; break-after: auto; }
+
+@page { size: A4 landscape; margin: 0; }
+.orizz { width: 297mm; height: 210mm; padding: 10mm 12mm; }
+h1 { font-size: 16pt; color: #c8553d; margin-bottom: 4mm; }
+h1 span { font-size: 9pt; color: #777; font-weight: normal; margin-left: 3mm; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: .3mm solid #9aa; padding: 1mm 1.5mm; font-size: 9pt; text-align: left; vertical-align: middle; }
+th { background: #2f6f3a; color: #fff; font-size: 8.5pt; }
+.grande td { height: 11mm; }
+.grande td:first-child { width: 38mm; font-weight: bold; background: #f4efe2; }
+.totali tbody tr:nth-last-child(-n+3) td { background: #fff4c2; }
+.nomebox { border-bottom: .3mm solid #fff; height: 5mm; margin-top: 1mm; }
+.squadre td { height: 13mm; font-size: 7.5pt; color: #888; }
+.squadre .atl + .atl { margin-top: 1.2mm; }
+.squadre tbody tr:nth-last-child(-n+2) td { background: #fff4c2; }
+.record td { height: 13mm; }
+.record td:nth-child(2) { color: #777; width: 32mm; }
+.piccolo { font-size: 8pt; color: #666; margin-top: 2mm; }
+.due { display: flex; gap: 0; padding: 0; }
+.mezza { width: 148.5mm; height: 210mm; padding: 8mm 9mm; border-right: .3mm dashed #bbb; font-size: 9.6pt; }
+.mezza:last-child { border-right: 0; }
+.mezza h3 { font-size: 9.4pt; color: #fff; background: #c8553d; padding: .8mm 2mm; margin: 2.6mm 0 1.4mm; border-radius: 1mm; }
+.mezza p { line-height: 1.3; }
+.mezza ol { padding-left: 5mm; line-height: 1.35; }
+.sch-testa { display: flex; justify-content: space-between; align-items: flex-end; gap: 4mm; border-bottom: .6mm solid #c8553d; padding-bottom: 1.5mm; }
+.sch-testa b { font-size: 13pt; color: #c8553d; }
+.campo { font-size: 7pt; color: #777; flex: 1; display: flex; flex-direction: column; }
+.campo span { border-bottom: .3mm solid #999; height: 6mm; }
+.riga2 { display: flex; gap: 5mm; margin-top: 2mm; }
+.riga2 > * { flex: 1; }
+.traccia { display: flex; gap: 1.5mm; }
+.tacca { flex: 1; height: 13.5mm; border: .5mm solid #2f6fd1; border-radius: 50%; display: flex; align-items: center;
+         justify-content: center; font-weight: bold; font-size: 11pt; color: #2f6fd1; }
+.quadri { display: flex; gap: 2mm; }
+.quadro { width: 8mm; height: 8mm; border: .5mm solid #c8553d; border-radius: 1mm; }
+.quadro.giallo { border-color: #c9a400; background: #fff4a8; }
+.mini { margin-top: 1.5mm; }
+.mini th, .mini td { font-size: 8.4pt; padding: 1.1mm 1.4mm; }
+.mini th { background: #555; }
+.centro th, .centro td { text-align: center; }
+.righe-alte td { height: 8.5mm; }
+.formula { background: #fff4c2; border-left: 1mm solid #e08a00; padding: 1mm 2mm; margin-top: 1mm; font-weight: bold; }
+
+</style></head>
+<body>
+<div class="pagina orizz">
+  <h1>SEGNAPUNTI <span>Atletica Strampalata · gara secca, meeting o decathlon</span></h1>
+  <table class="grande totali"><thead><tr><th>Disciplina</th><th>Giocatore 1<div class='nomebox'></div></th><th>Giocatore 2<div class='nomebox'></div></th><th>Giocatore 3<div class='nomebox'></div></th><th>Giocatore 4<div class='nomebox'></div></th><th>Giocatore 5<div class='nomebox'></div></th><th>Giocatore 6<div class='nomebox'></div></th><th>Giocatore 7<div class='nomebox'></div></th><th>Giocatore 8<div class='nomebox'></div></th></tr></thead><tbody><tr><td>100 m</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Salto in lungo</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Getto del peso</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Salto in alto</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>400 m</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>110 m hs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>200 m</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>400 m hs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>800 m</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Record (+2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><b>TOTALE</b></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Medaglie oro / arg. / bronzo</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <p class="piccolo">Punti per piazzamento: 1° 10 · 2° 8 · 3° 6 · 4° 5 · 5° 4 · 6° 3 · 7° 2 · 8° 1 · nullo o squalifica 0 ·
+  Record dello Stadio battuto +2. Parità nel decathlon: più ori, poi più argenti, poi più bronzi.</p></div>
+<div class="pagina orizz">
+  <h1>SEGNAPUNTI A SQUADRE <span>Squadre da 2: un atleta per disciplina · squadre da 3-4: due atleti per disciplina</span></h1>
+  <table class="grande squadre"><thead><tr><th>Disciplina</th><th>Squadra 1<div class='nomebox'></div></th><th>Squadra 2<div class='nomebox'></div></th><th>Squadra 3<div class='nomebox'></div></th><th>Squadra 4<div class='nomebox'></div></th></tr></thead><tbody><tr><td>100 m</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>Salto in lungo</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>Getto del peso</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>Salto in alto</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>400 m</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>110 m hs</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>Giavellotto</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>200 m</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>400 m hs</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>800 m</td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td><td><div class='atl'>atleta: ____________ punti: ____</div><div class='atl'>atleta: ____________ punti: ____</div></td></tr><tr><td>Spirito di squadra (+5)</td><td></td><td></td><td></td><td></td></tr><tr><td><b>TOTALE</b></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <p class="piccolo">Ogni membro gareggia in almeno 3 discipline e al massimo 7. Spirito di squadra: +5 se ogni membro ha vinto almeno una medaglia.</p></div>
+<div class="pagina orizz">
+  <h1>RECORD DELLO STADIO <span>scrivi qui i record battuti: restano da una partita all'altra</span></h1>
+  <table class="grande record"><thead><tr><th>Disciplina</th><th>Record di partenza</th><th>Nuovo record</th><th>Atleta</th><th>Data</th></tr></thead><tbody><tr><td><b>100 m</b></td><td>2 turni</td><td></td><td></td><td></td></tr><tr><td><b>110 m hs</b></td><td>3 turni</td><td></td><td></td><td></td></tr><tr><td><b>200 m</b></td><td>2 turni</td><td></td><td></td><td></td></tr><tr><td><b>400 m</b></td><td>4 turni</td><td></td><td></td><td></td></tr><tr><td><b>400 m hs</b></td><td>5 turni</td><td></td><td></td><td></td></tr><tr><td><b>800 m</b></td><td>8 turni</td><td></td><td></td><td></td></tr><tr><td><b>Salto in lungo</b></td><td>8,00 m</td><td></td><td></td><td></td></tr><tr><td><b>Salto in alto</b></td><td>2,30 m</td><td></td><td></td><td></td></tr><tr><td><b>Getto del peso</b></td><td>21,00 m</td><td></td><td></td><td></td></tr><tr><td><b>Giavellotto</b></td><td>85,0 m</td><td></td><td></td><td></td></tr></tbody></table>
+  <p class="piccolo">Corse: vale il numero di turni impiegati, poi le caselle oltre il traguardo. Chi batte un record guadagna +2 punti.</p></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>SCHEDA GIOCATORE</b><br><span class="piccolo">Atletica Strampalata</span></div>
+  <div class="campo">Nome<span></span></div></div>
+  <div class="riga2"><div class="campo">Colore / corsia<span></span></div><div class="campo">Atleta<span></span></div></div>
+  <h3>FIATO (corse) · CONCENTRAZIONE (concorsi)</h3>
+  <div class="traccia"><div class="tacca"><span>0</span></div><div class="tacca"><span>1</span></div><div class="tacca"><span>2</span></div><div class="tacca"><span>3</span></div><div class="tacca"><span>4</span></div><div class="tacca"><span>5</span></div><div class="tacca"><span>6</span></div><div class="tacca"><span>7</span></div><div class="tacca"><span>8</span></div></div>
+  <p class="piccolo">Metti una Borraccia sul valore attuale (massimo 8). A fine disciplina torna a zero.</p>
+  <div class="riga2"><div><h3>GRINTA (decathlon)</h3><div class="quadri"><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div><div class="quadro"></div></div>
+  <p class="piccolo">Barra un quadretto per ogni gettone speso: max 2 per disciplina, +1 Fiato o +1 Concentrazione.</p></div>
+  <div><h3>CARTELLINO GIALLO</h3><div class="quadri"><div class="quadro giallo"></div></div>
+  <p class="piccolo">Il secondo nella stessa gara = squalifica: diventi Tifoso.</p></div></div>
+  <h3>IL TURNO DI CORSA</h3>
+  <ol><li>Gioca al massimo <b>1 carta</b> (le Difese in qualsiasi momento).</li>
+  <li>Dichiara il <b>ritmo</b> e tira <b>3 dadi</b>.</li>
+  <li>Tieni i dadi del ritmo e muovi della loro somma (tutta).</li>
+  <li>Risolvi la casella: ★, ostacolo, banana, pozzanghera.</li>
+  <li>Applica le combinazioni.</li></ol>
+  <table class="mini"><thead><tr><th>Ritmo</th><th>Dadi tenuti</th><th>Costo / bonus</th></tr></thead><tbody><tr><td>Passo</td><td>1</td><td>+1 Fiato e peschi 1 carta</td></tr><tr><td>Corsa</td><td>2 a scelta</td><td>—</td></tr><tr><td>Scatto</td><td>tutti e 3</td><td>−2 Fiato (−3 nelle ultime 10 caselle di 400/400 hs)</td></tr></tbody></table>
+  <table class="mini"><thead><tr><th>Combinazione</th><th>Effetto</th></tr></thead><tbody><tr><td>Doppio tra i dadi tenuti</td><td><b>Falcata Perfetta</b>: peschi 1 carta</td></tr><tr><td>Tris sul tiro</td><td><b>In Trance</b>: muovi la somma dei 3 dadi gratis e peschi 1 carta</td></tr><tr><td>Tris di 1</td><td><b>Crampo Comico</b>: fermo, +2 Fiato</td></tr><tr><td>4-5-6 / 1-2-3</td><td><b>Vento in Poppa</b> +1 Fiato / <b>Inciampo</b> −1 Fiato</td></tr></tbody></table>
+</div></div>
+<div class="pagina orizz due"><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div><div class="mezza">
+  <div class="sch-testa"><div><b>PROMEMORIA CONCORSI</b><br><span class="piccolo">3 tentativi · vale il migliore · 2 Concentrazione (3 nell'alto)</span></div></div>
+  <h3>SALTO IN LUNGO</h3>
+  <p>Rincorsa: 3 dadi, ne tieni 2. Poi tira 1 dado alla volta finché vuoi: oltre la casella 12 è <b>nullo</b>.
+  Volo: 1 dado. Doppio nella rincorsa: +0,25 m.</p>
+  <p class="formula">Misura = 4 m + (Rincorsa + Volo) × 0,25 m</p>
+  <h3>SALTO IN ALTO</h3>
+  <p>3 dadi, tieni i 2 migliori: la somma deve raggiungere il tiro minimo. Doppio tenuto: +1.
+  3 errori consecutivi = eliminato. Puoi passare un'altezza.</p>
+  <table class="mini centro"><thead><tr><th>Altezza</th><th>1,80</th><th>1,90</th><th>2,00</th><th>2,10</th><th>2,20</th><th>2,30</th><th>2,40</th><th>2,45*</th></tr></thead><tbody><tr><td>Tiro minimo</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr></tbody></table>
+  <p class="piccolo">* a 2,45 m non si usa la Concentrazione.</p>
+  <h3>GETTO DEL PESO</h3>
+  <p>Scegli quanti dadi tirare (da 1 a 4). Anche un solo <b>1</b> = nullo.</p>
+  <p class="formula">Misura = 12 m + somma × 0,5 m</p>
+  <h3>GIAVELLOTTO</h3>
+  <p>3 dadi: 1 sull'Angolo, 2 sulla Forza (somma).</p>
+  <p class="formula">Misura = Forza × 8 m × fattore Angolo</p>
+  <table class="mini centro"><thead><tr><th>Angolo</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Fattore</td><td>nullo</td><td>×0,7</td><td>×0,9</td><td>×1,0</td><td>×0,9</td><td>×0,6</td></tr></tbody></table>
+  <h3>LE MIE MISURE</h3>
+  <table class="mini righe-alte"><thead><tr><th>Disciplina</th><th>1° tentativo</th><th>2° tentativo</th><th>3° tentativo</th><th>Migliore</th></tr></thead><tbody><tr><td>Lungo</td><td></td><td></td><td></td><td></td></tr><tr><td>Peso</td><td></td><td></td><td></td><td></td></tr><tr><td>Giavellotto</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+  <table class="mini righe-alte"><thead><tr><th>Alto</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Esiti (O / X / –)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+</div></div>
+<script>
+
+window.__pronto = true;
+</script>
+</body></html>
