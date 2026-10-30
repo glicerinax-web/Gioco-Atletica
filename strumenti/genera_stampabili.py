@@ -14,6 +14,8 @@ import html
 import os
 import re
 
+from illustrazioni import illustrazione
+
 RADICE = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 USCITA = os.path.join(RADICE, "stampabili", "html")
 PLANCIA_REL = "../../plancia.svg"
@@ -168,7 +170,7 @@ def html_carta(c):
     return f"""<div class="carta" style="--c:{colore}">
   <div class="testa"><div class="tipo">{etichetta}</div><div class="nome">{html.escape(c["nome"])}</div>{simbolo(c["tipo"], "#fff", 8)}</div>
   <div class="quando">{quando}</div>
-  <div class="corpo">{simbolo(c["tipo"], colore, 26).replace('class="simbolo"', 'class="filigrana"')}<div class="effetto">{corpo}</div>{f'<div class="colore">{testo}</div>' if testo else ''}</div>
+  <div class="corpo">{illustrazione(c["codice"])}<div class="effetto">{corpo}</div>{f'<div class="colore">{testo}</div>' if testo else ''}</div>
   <div class="piede"><span>Atletica Strampalata</span><span>{mazzo} · {c["codice"]}</span></div>
 </div>"""
 
@@ -212,14 +214,15 @@ def genera_carte():
 .testa { background: var(--c); color: #fff; border-radius: 2.5mm 2.5mm 0 0; padding: 1.6mm 2mm 1.8mm; position: relative; }
 .testa .simbolo { position: absolute; right: 1.6mm; top: 1.6mm; opacity: .9; }
 .tipo { font-size: 6pt; letter-spacing: .4mm; font-weight: bold; opacity: .9; }
-.nome { font-size: 11pt; font-weight: bold; line-height: 1.1; margin-top: .6mm; padding-right: 9mm; min-height: 9mm;
+.nome { font-size: 11pt; font-weight: bold; line-height: 1.1; margin-top: .4mm; padding-right: 9mm; min-height: 7mm;
         display: flex; align-items: center; }
 .quando { font-size: 6pt; text-align: center; color: #fff; background: color-mix(in srgb, var(--c) 75%, #000);
           padding: .5mm 0; }
 .corpo { flex: 1; border: .5mm solid var(--c); border-top: 0; border-radius: 0 0 2.5mm 2.5mm; padding: 2mm;
-         display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; background: #fff; }
+         display: flex; flex-direction: column; overflow: hidden; background: #fff; }
+.colore { margin-top: auto !important; }
 .corpo { position: relative; }
-.filigrana { position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); opacity: .09; }
+.illu { display: block; flex: none; width: calc(100% + 4mm); height: 28mm; margin: -2mm -2mm 1.6mm; border-bottom: .4mm solid var(--c); }
 .effetto, .colore { position: relative; }
 .effetto { font-size: 8.4pt; line-height: 1.28; }
 .sez + .sez { margin-top: 1.6mm; }
