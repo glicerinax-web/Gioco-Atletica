@@ -33,3 +33,14 @@ Gara secca · Meeting (2-5 discipline) · **Decathlon** (tutti in tutte e 10, co
 | [`CARTE.md`](CARTE.md) | Tutte le 84 carte (Scarpetta, Stadio, Meteo) con effetti e testi |
 | [`plancia.svg`](plancia.svg) | La plancia stampabile (1800 × 1420, vettoriale: si stampa in qualunque formato) |
 | [`strumenti/genera_plancia.py`](strumenti/genera_plancia.py) | Script che rigenera la plancia (`python3 strumenti/genera_plancia.py`) |
+| [`stampabili/`](stampabili/) | **Stampa e gioca**: plancia in PDF (A2, A3 o 4 fogli A4), 84 carte + 8 carte Atleta con i dorsi, segnapunti, Record dello Stadio, schede giocatore, gettoni e pedine da piegare |
+| [`strumenti/genera_stampabili.py`](strumenti/genera_stampabili.py) + [`strumenti/stampa_pdf.js`](strumenti/stampa_pdf.js) | Rigenerano i materiali stampabili leggendo `CARTE.md` e `REGOLAMENTO.md` (servono Python 3 e Node con Playwright) |
+
+## Stampa e gioca
+
+1. Stampa la plancia: `stampabili/plancia-A2.pdf` in copisteria, oppure `stampabili/plancia-A4-4fogli.pdf` a casa (4 fogli da unire).
+2. Stampa `stampabili/carte.pdf` (meglio su cartoncino) e ritaglia le carte; i dorsi sono nelle ultime 4 pagine.
+3. Stampa `stampabili/gettoni.pdf` e `stampabili/schede.pdf`.
+4. Procurati 4 dadi e una matita. Tutto al 100 % ("dimensioni effettive"), mai "adatta alla pagina".
+
+Le istruzioni complete sono nella sezione 2.1 del regolamento.
